@@ -1,0 +1,487 @@
+/*! Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
+    line-height: 125%;
+}
+
+button {
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sideImage {
+    width: 50%;
+}
+
+.head {
+    font-family: var(--primaryFont);
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.description {
+    font-family: var(--secondaryFont);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text {
+    font-family: var(--primaryFont);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*! Header */
+.bars {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 35px;
+    right: 20px;
+    display: none;
+}
+
+header {
+    width: 100%;
+    background-color: var(--green);
+    position: fixed;
+    top: 0px;
+}
+
+header .container {
+    font-family: var(--primaryFont);
+    width: 80%;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container span {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+header .container span img {
+    width: 70px;
+    height: 48px;
+}
+
+header .container ul {
+    display: flex;
+    font-size: 20px;
+}
+
+header .container ul li {
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+header .container ul li a {
+    color: var(--white);
+    transition-duration: 0.3s;
+}
+
+header .container ul li:hover {
+    background-color: var(--white);
+}
+
+header .container ul li:hover a {
+    color: var(--green);
+}
+
+/*! Main */
+main {
+    width: 100%;
+    margin-top: 100px;
+}
+
+/* Main Header */
+.mainHeader {
+    width: 100%;
+    background-color: var(--green);
+}
+
+.mainHeader .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainHeader .container .content {
+    max-width: 416px;
+    font-family: var(--primaryFont);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.mainHeader .container .content p {
+    color: var(--white);
+}
+
+.mainHeader .container .content #text {
+    color: var(--light-white);
+}
+
+.mainHeader .container .content button {
+    background-color: var(--white);
+}
+
+.mainHeader .container .content button a {
+    color: var(--black);
+}
+
+/* Main Body */
+.mainBody {
+    width: 100%;
+}
+
+.mainBody button,
+.mainFooter button {
+    background-color: var(--dark);
+}
+
+.mainBody button a,
+.mainFooter button a {
+    color: var(--white);
+}
+
+/* MainBody section */
+.mainBody .section {
+    width: 80%;
+    margin: 73px auto;
+    text-align: center;
+
+}
+
+.mainBody .section p,
+.mainFooter p {
+    max-width: 411px;
+    margin: 16px auto;
+}
+
+.mainBody .section #head,
+.mainFooter #head {
+    color: var(--green);
+}
+
+.mainBody .section #text,
+.mainFooter #text {
+    font-size: 20px;
+}
+
+.mainBody .section .logos {
+    width: 100%;
+    margin: 55px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 68px;
+
+}
+
+/* MainBody article */
+.mainBody .article {
+    width: 80%;
+    margin: 73px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mainBody .article .content {
+    max-width: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mainBody .article .content #description {
+    max-width: 400px;
+}
+
+.mainBody .article .content #text {
+    color: var(--light-dark);
+}
+
+/* Main footer */
+.mainFooter {
+    width: 80%;
+    margin: 73px auto;
+    text-align: center;
+}
+
+.mainFooter .users {
+    width: 100%;
+    margin: 45px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mainFooter .users .user {
+    width: 279px;
+    height: 299px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px 1px var(--shadow-color);
+}
+
+.mainFooter .users .user img {
+    width: 175px;
+    height: 175px;
+    margin: 15px 0px;
+}
+
+.mainFooter .users .user p {
+    text-align: left;
+    width: 202px;
+    margin: 10px auto;
+}
+
+.mainFooter .users .user .name {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--secondaryFont);
+    color: var(--dark);
+}
+
+.mainFooter .users .user .job {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--primaryFont);
+    color: var(--light-dark);
+}
+
+/*! Footer */
+footer {
+    width: 100%;
+    background: var(--green);
+}
+
+footer .container {
+    width: 80%;
+    min-height: 125px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .container .connections {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .container p {
+    font-family: var(--primaryFont);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* ! Responsive Design */
+@media screen and (max-width: 992px) {
+
+    .description {
+        font-size: 35px;
+    }
+
+    /*! Header */
+    header .container {
+        width: 90%;
+    }
+
+    header .container span {
+        gap: 15px;
+        font-size: 35px;
+    }
+
+    header .container span img {
+        width: 55px;
+        height: 40px;
+    }
+
+    header .container ul {
+        font-size: 18px;
+    }
+
+    header .container ul li {
+        padding: 10px 15px;
+    }
+
+    /*! Main */
+    .sideImage {
+        width: 100%;
+    }
+
+    /* Main Header */
+    .mainHeader .container {
+        width: 90%;
+        padding: 50px 0px;
+        flex-direction: column-reverse;
+        gap: 30px;
+
+    }
+
+    /* Main Body */
+
+    /* MainBody section */
+    .mainBody .section {
+        width: 90%;
+        margin: 50px auto;
+        text-align: center;
+
+    }
+
+    .mainBody .section .logos {
+        flex-direction: column;
+    }
+
+    /* MainBody article*/
+    .mainBody .article {
+        width: 90%;
+        margin: 50px auto;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .mainBody .articleII {
+        flex-direction: column-reverse;
+    }
+
+    /* Main Footer */
+    .mainFooter {
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .mainFooter .users {
+        margin: 40px 0px;
+        gap: 35px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*! Footer */
+    footer .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .description {
+        font-size: 32px;
+    }
+
+    /*! Header */
+    header .container span {
+        gap: 10px;
+        font-size: 30px;
+    }
+
+    header .container span img {
+        width: 45px;
+        height: 31px;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    header .container ul {
+        font-size: 17px;
+        position: absolute;
+        flex-direction: column;
+        top: 100px;
+        right: 0px;
+        width: 100%;
+        text-align: right;
+        background-color: var(--green);
+        border-top: 1px solid white;
+        display: none;
+    }
+
+    header .container ul li a {
+        width: 100%;
+        display: block;
+    }
+
+    header .container ul.active {
+        display: block;
+    }
+
+    header .container ul li {
+        border-bottom: 1px solid white;
+        border-radius: 0px;
+    }
+
+    /*! Main */
+
+    /* Main Header */
+    .mainHeader .container {
+        padding: 40px 0px;
+    }
+
+    /* Main Body */
+
+    /* MainBody section */
+    .mainBody .section {
+        margin: 30px auto;
+    }
+
+    /* MainBody article*/
+    .mainBody .article {
+        margin: 40px auto;
+    }
+
+    /* Main Footer */
+    .mainFooter {
+        margin: 40px auto;
+    }
+
+    /*! Footer */
+    footer .container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /*! Main */
+
+    /* Main Header */
+    .mainHeader .container .content #description {
+        font-size: 28px;
+    }
+
+    /* Main Body and Main Footer*/ 
+    .mainBody #description, .mainFooter #description{
+        font-size: 24px;
+    }
+
+}

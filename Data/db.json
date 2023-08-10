@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "Images/user1.svg",
+        "name": "Peg Legge",
+        "job": "CEO"
+    },
+    {
+        "id": 2,
+        "image": "Images/user2.svg",
+        "name": "Richard Guerra",
+        "job": "CTO"
+    },
+    {
+        "id": 3,
+        "image": "Images/user3.svg",
+        "name": "Alexandra Stolz",
+        "job": "DESIGNER"
+    },
+    {
+        "id": 4,
+        "image": "Images/user4.svg",
+        "name": "Janet Bray",
+        "job": "DEVELOPER"
+    }
+]
